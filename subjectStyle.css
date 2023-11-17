@@ -1,0 +1,8 @@
+.paper-year {
+  margin-bottom: 10px; /* Adjust the margin to control the gap between each year */
+}
+
+.paper-title {
+  margin-top: 5px; /* Adjust the margin to control the gap between each paper title */
+  margin-bottom: 5px; /* Adjust the margin to control the gap between each paper title */
+}
