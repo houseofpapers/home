@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subjects Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Welcome to the Subjects Page</h1>
+    
 
-  <!-- Math Section Link -->
-  <a href="math.html"><h2>Math Section</h2></a>
+    <!-- Math Section Button -->
+    <button class="button-login" onclick="redirectToMath()">Math Section</button>
 
-  <!-- Physics Section Link -->
-  <a href="physics.html"><h2>Physics Section</h2></a>
+    <!-- Physics Section Button -->
+    <button class="button-login" onclick="redirectToPhysics()">Physics Section</button>
 
-  <!-- Chemistry Section Link -->
-  <a href="chemistry.html"><h2>Chemistry Section</h2></a>
+    <!-- Chemistry Section Button -->
+    <button class="button-login" onclick="redirectToChemistry()">Chemistry Section</button>
+
+    <script>
+        // Functions to redirect to the respective subject pages
+        function redirectToMath() {
+            window.location.href = 'math.html';
+        }
+
+        function redirectToPhysics() {
+            window.location.href = 'physics.html';
+        }
+
+        function redirectToChemistry() {
+            window.location.href = 'chemistry.html';
+        }
+    </script>
 
 </body>
 </html>

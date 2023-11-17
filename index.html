@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Welcome to the Login Page</h1>
+<form id="loginForm">
+    <h2>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
 
-  <!-- Login Button -->
-  <button class="a" onclick="redirectToSubjects()">Login</button>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
 
-  <script>
-    // Function to redirect to the subjects page
-    function redirectToSubjects() {
-      // Replace 'subjects.html' with the actual filename of your subjects page
-      window.location.href = 'subjects.html';
+    <button type="button" class="button-login" onclick="login()">Login</button>
+  </form>
+
+<script>
+  //database but its public (not secure)
+    const users = [
+        { username: 'test', password: '123' },
+        { username: 'john', password: 'password123' },
+    ];
+
+    function login() {
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        const user = users.find(u => u.username === username && u.password === password);
+
+        if (user) {
+            window.location.href = 'subjects.html'; 
+        } else {
+            alert('Login failed. Please check your username and password.');
+        }
     }
-  </script>
-#new
+</script>
+
 </body>
 </html>
