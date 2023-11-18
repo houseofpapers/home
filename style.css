@@ -19,7 +19,8 @@ form {
 }
 
 .loginForm{
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Arial', sans-serif;
+    ;
 }
 
 label {
@@ -34,9 +35,8 @@ input {
     box-sizing: border-box;
 }
 
-/* Incorporating the custom button-54 CSS for the login button */
 .button-login {
-    font-family:  sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     text-decoration: none;

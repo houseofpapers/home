@@ -1,8 +1,56 @@
 .paper-year {
   margin-bottom: 10px; /* Adjust the margin to control the gap between each year */
+  padding-left: 10px;
 }
 
 .paper-title {
   margin-top: 5px; /* Adjust the margin to control the gap between each paper title */
   margin-bottom: 5px; /* Adjust the margin to control the gap between each paper title */
+}
+
+.signature {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+.paper-year {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
 }

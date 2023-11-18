@@ -18,18 +18,21 @@
 <body>
     
 
-    <!-- Math Section Button -->
     <button class="button-login" onclick="redirectToMath()">Math AA HL</button>
 
-    <!-- Physics Section Butt-->
     <button class="button-login" onclick="redirectToPhysics()">Physics HL </button>
 
-    <!-- Chemistry Section Button -->
     <button class="button-login" onclick="redirectToChemistry()">Chemistry HL</button>
+    
+    <button class="button-login" onclick="redirectToChemsitrySL()">Chemsitry SL</button>
 
-    <button class="button-login" onclick="redirectToSpanish()">Spanish B </button>
+    <button class="button-login" onclick="redirectToEconomicsSL()">Economics SL</button>
+
+    <button class="button-login" onlcik="redirectToEconomicsHL()">Economics HL</button>
+    
+    <button class="button-login" onclick="redirectToSpanish()">Spanish B</button>
+    
     <script>
-        // Functions to redirect to the respective subject pages
         function redirectToMath() {
             window.location.href = 'math.html';
         }
@@ -45,7 +48,22 @@
         function redirectToSpanish() {
             window.location.href = 'spanish.html';
         }
-    </script>
+        
+        function redirectToEconomicsSL() {
+            window.location.href = 'economicsSL.html';
+        }
 
+        function redirectToEconomicsHL() {
+            window.location.href = 'economicsHL.html';
+        }
+
+        function redirectToChemsitrySL() {
+            window.location.href = 'chemistrySL.html';
+        }
+
+
+    </script>
+    
+<div class="signature">Powered by HOTL</div>
 </body>
 </html>
