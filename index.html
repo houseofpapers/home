@@ -11,44 +11,40 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type ="x-icon" href="house.png">
-    <title>HOFTL Past Paper Server</title>
+    <link rel="shortcut icon" type="image/x-icon" href="house.png">
+    <style>
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 65%;
+            left: 50%; 
+            transform: translateX(-50%); 
+        }
+
+        img {
+            width: auto;
+            height: 255px;
+            display: block;
+            margin: 0 auto; 
+        }
+        
+    </style>
+    <title>House of Papers</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img src="HOP Logo.png" alt="HOP Logo">
 
-<form id="loginForm">
-    <h1>HOLR LOGIN</h1>
-    <label for="username" >Username:</label>
-    <input type="text" id="username" name="username" required>
+    <div class="center">
+        <button type="button" class="button-login" onclick="redirectLogin()">ENTER</button>
+    </div>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-
-    <button type="button" class="button-login" onclick="login()">Login</button>
-  </form>
-
-<script>
-  //database but its public (not secure)
-    const users = [
-        { username: 'test', password: '123' },
-        { username: 'john', password: 'password123' },
-    ];
-
-    function login() {
-        var username = document.getElementById('username').value;
-        var password = document.getElementById('password').value;
-
-        const user = users.find(u => u.username === username && u.password === password);
-
-        if (user) {
+    <script>
+        function redirectLogin() {
             window.location.href = 'subjects.html'; 
-        } else {
-            alert('Login failed. Please check your username and password.');
         }
-    }
-</script>
+    </script>
 
-<div class="signature">Powered by HOTL</div>
+    <div class="signature">Powered by The House</div>
 </body>
 </html>
