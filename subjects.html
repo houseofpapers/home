@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-       <!-- Google tag (gtag.js) -->
-       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH583V7WY3"></script>
-       <script>
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-           gtag('config', 'G-QH583V7WY3');
-       </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH583V7WY3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QH583V7WY3');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type ="x-icon" href="house.png">
+    <link rel="shortcut icon" type="x-icon" href="house.png">
     <title>Subject Selection</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* You can use other values like space-between or space-around */
+        }
+
+        .signature {
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="button-container">
+        <button class="button-login" onclick="redirectToMath()">Math AA HL</button>
+        <button class="button-login" onclick="redirectToPhysics()">Physics HL </button>
+        <button class="button-login" onclick="redirectToChemistry()">Chemistry HL</button>
+        <button class="button-login" onclick="redirectToChemsitrySL()">Chemsitry SL</button>
+        <button class="button-login" onclick="redirectToEconomicsSL()">Economics SL</button>
+        <button class="button-login" onclick="redirectToEconomicsHL()">Economics HL</button>
+        <button class="button-login" onclick="redirectToSpanish()">Spanish B</button>        
+    </div>
 
-    <button class="button-login" onclick="redirectToMath()">Math AA HL</button>
-
-    <button class="button-login" onclick="redirectToPhysics()">Physics HL </button>
-
-    <button class="button-login" onclick="redirectToChemistry()">Chemistry HL</button>
-    
-    <button class="button-login" onclick="redirectToChemsitrySL()">Chemsitry SL</button>
-
-    <button class="button-login" onclick="redirectToEconomicsSL()">Economics SL</button>
-
-    <button class="button-login" onlcik="redirectToEconomicsHL()">Economics HL</button>
-    
-    <button class="button-login" onclick="redirectToSpanish()">Spanish B</button>
-    
     <script>
         function redirectToMath() {
             window.location.href = 'math.html';
@@ -48,7 +53,7 @@
         function redirectToSpanish() {
             window.location.href = 'spanish.html';
         }
-        
+
         function redirectToEconomicsSL() {
             window.location.href = 'economicsSL.html';
         }
@@ -61,9 +66,11 @@
             window.location.href = 'chemistrySL.html';
         }
 
-
+        function goBack() {
+            window.history.back();
+        }
     </script>
-    
-<div class="signature">Powered by HOTL</div>
+
+    <div class="signature">Powered by HOTL</div>
 </body>
 </html>

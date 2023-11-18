@@ -65,6 +65,8 @@ input {
 }
 .button-login {
     margin-right: 25px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .Subject-Heading {
