@@ -53,6 +53,14 @@
             right: 10px;
             cursor: pointer;
         }
+
+        .info {
+            position: absolute;
+            bottom: 0.1px;
+            right: 1px;
+            font-size: 144px; 
+            padding-left: 30px;
+        }
         
     </style>
     <title>House of Papers</title>
@@ -63,12 +71,16 @@
 
     <div class="center">
         <button type="button" class="button-login" onclick="redirectLogin()">ENTER</button>
-        <button class="button-login" onclick="openPopup()">?</button>
     </div>
+
+    <div class="info">
+        <button type="button" class="button-login" onclick="openPopup()">?</button>
+    </div>  
+    
 
     <div class="popup" id="infoPopup">
         <div class="popup-content">
-            <p>A few lines of information about your website.</p>
+            <p>A few lines of information about </p>
             <span class="popup-close" onclick="closePopup()">Close</span>
         </div>
     </div>
