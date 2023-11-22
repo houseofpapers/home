@@ -15,8 +15,40 @@
   <title>Spanish AB Initio</title>
   <link rel="stylesheet" href="subjectStyle.css"> 
 
+  <style>
+    #backButton {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        cursor: pointer;
+        border: 3px solid;
+        padding: 0.25em 0.5em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+  </style>
+
 </head>
 <body>
+  <button id = "backButton" class="button-login">Back</button>
+
+  <script>
+    document.getElementById('backButton').addEventListener('click', function() {
+        // Go back to the previous page
+        window.history.back();
+    });
+  </script>
+
 
   <h1 class = "Subject-Heading" >Spanish AB Initio Past Papers </h1>
 
