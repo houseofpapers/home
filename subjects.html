@@ -34,9 +34,17 @@
         <button class="button-login" onclick="redirectToFrench()">French B</button>        
         <button class="button-login" onclick="redirectToFrenchAB()">French AB</button>
         <button class="button-login" onclick="redirectToEnglish()">English SL/HL</button>
+        <button class="button-login" onclick="redirectToMathAAHL()">Math AA HL</button>
+        <button class="button-login" onclick="redirectToMathAASL()">Math AA SL</button>
     </div>
 
     <script>
+        function redirectToMathAASL() {
+            window.location.href = 'mathAASL.html';
+        }
+        function redirectToMathAAHL() {
+            window.location.href = 'mathAAHL.html';
+        }
         function redirectToFrenchAB() {
             window.location.href = 'frenchAB.html';
         }
