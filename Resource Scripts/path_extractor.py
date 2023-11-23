@@ -69,14 +69,15 @@ for path in split_paths:
       DESCRIPTOR = "Paper 1 SL Text Booklet"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
-    elif "paper_2__SL" in path:
-      DESCRIPTOR = "Paper 2 SL"
-      path = path.replace("DESCRIPTOR", DESCRIPTOR)
-      new_paths.append(path)
     elif "paper_2__SL_markscheme" in path:
       DESCRIPTOR = "Paper 2 SL Markscheme"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
+    elif "paper_2__SL" in path:
+      DESCRIPTOR = "Paper 2 SL"
+      path = path.replace("DESCRIPTOR", DESCRIPTOR)
+      new_paths.append(path)
+    
       
       
     print(DESCRIPTOR)
