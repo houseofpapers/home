@@ -37,27 +37,27 @@ for session in sessions:
         path = ""
       elif "French" in path:
         path = ""
-      elif "paper_1_TZ1_SL_markscheme" or "paper_1_TZ1__SL_markscheme" in path:
+      elif "paper_1_TZ1_SL_markscheme" in path or "paper_1__TZ1_SL_markscheme" in path:
+        DESCRIPTOR = "Paper 1 TZ1 SL Markscheme"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_1_TZ1_SL" in path or "paper_1__TZ1_SL" in path:
+        DESCRIPTOR = "Paper 1 TZ1 SL"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_1_TZ2_SL_markscheme" in path or "paper_1__TZ2_SL_markscheme" in path:
+        DESCRIPTOR = "Paper 1 TZ2 SL Markscheme"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_1_TZ2_SL" in path or "paper_1__TZ2_SL" in path:
+        DESCRIPTOR = "Paper 1 TZ2 SL"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_1__SL_markscheme" in path or "paper_1_SL_markscheme" in path:
         DESCRIPTOR = "Paper 1 SL Markscheme"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
-      elif "paper_1_TZ1_SL" or "paper_1__TZ1_SL" in path:
-        DESCRIPTOR = "Paper 1 SL"
-        path = path.replace("DESCRIPTOR", DESCRIPTOR)
-        new_paths.append(path)
-      elif "paper_1_TZ2_SL_markscheme" or "paper_1__TZ2_SL_markscheme" in path:
-        DESCRIPTOR = "Paper 1 SL Markscheme"
-        path = path.replace("DESCRIPTOR", DESCRIPTOR)
-        new_paths.append(path)
-      elif "paper_1_TZ2_SL" or "paper_1__TZ2_SL" in path:
-        DESCRIPTOR = "Paper 1 SL"
-        path = path.replace("DESCRIPTOR", DESCRIPTOR)
-        new_paths.append(path)
-      elif "paper_1__SL_markscheme" or "paper_1_SL_markscheme" in path:
-        DESCRIPTOR = "Paper 1 SL Markscheme"
-        path = path.replace("DESCRIPTOR", DESCRIPTOR)
-        new_paths.append(path)
-      elif "paper_1__SL" or "paper_1_SL" in path:
+      elif "paper_1__SL" in path or "paper_1_SL" in path:
         DESCRIPTOR = "Paper 1 SL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
@@ -89,11 +89,11 @@ for session in sessions:
         DESCRIPTOR = "Paper 1 SL Text Booklet"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
-      elif "paper_2_SL_markscheme" or "paper_2__SL_markscheme" in path:
+      elif "paper_2_SL_markscheme" in path or "paper_2__SL_markscheme" in path:
         DESCRIPTOR = "Paper 2 SL Markscheme"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
-      elif "paper_2_SL" or "paper_2__SL" in path:
+      elif "paper_2_SL" in path or "paper_2__SL" in path:
         DESCRIPTOR = "Paper 2 SL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
