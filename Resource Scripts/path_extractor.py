@@ -1,5 +1,5 @@
 import os
-session = "2022 November"
+session = "2022 May"
 def list_pdf_files(folder_path):
     pdf_files = []
     for file_name in os.listdir(folder_path):
@@ -32,7 +32,11 @@ new_paths=[]
 for path in split_paths:
     DESCRIPTOR = ""
     print(path)
-    if "paper_1__SL_markscheme" in path:
+    if "Spanish" in path:
+      path = ""
+    elif "French" in path:
+      path = ""
+    elif "paper_1__SL_markscheme" in path:
       DESCRIPTOR = "Paper 1 SL Markscheme"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
