@@ -1,5 +1,5 @@
 import os
-session = "2022 November"
+session = "2005 May"
 def list_pdf_files(folder_path):
     pdf_files = []
     for file_name in os.listdir(folder_path):
@@ -8,7 +8,7 @@ def list_pdf_files(folder_path):
     return pdf_files
 
 # Replace 'your/desktop/folder/path' with the path to your desktop folder
-desktop_folder_path = r'C:\Users\Rishi Mody\Documents\GitHub\Trial-Website\pdfs\Economics_SL' + '\\' + session + ' Examination Session'
+desktop_folder_path = r'C:\Users\Rishi Mody\Documents\GitHub\Trial-Website\pdfs\Hindi_B_SL' + '\\' + session + ' Examination Session'
 print(desktop_folder_path)
 pdf_files = list_pdf_files(desktop_folder_path)
 print(pdf_files)
@@ -18,7 +18,7 @@ div_str = ""
 for i in range(len(pdf_files)):
     div_str += ''' <p class="paper-title"><a href="PATH" target="_blank">DESCRIPTOR</a></p>'''
     div_str+="\n"
-    div_str = div_str.replace("PATH", "pdfs/Economics_SL" + '/' + session + " Examination Session/" + pdf_files[i])
+    div_str = div_str.replace("PATH", "pdfs/Hindi_B_SL" + '/' + session + " Examination Session/" + pdf_files[i])
     
 
 print("\n")
@@ -32,7 +32,11 @@ new_paths=[]
 for path in split_paths:
     DESCRIPTOR = ""
     print(path)
-    if "paper_1__SL_markscheme" in path:
+    if "Spanish" in path:
+      path = ""
+    elif "French" in path:
+      path = ""
+    elif "paper_1__SL_markscheme" in path:
       DESCRIPTOR = "Paper 1 SL Markscheme"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
@@ -61,19 +65,19 @@ for path in split_paths:
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
     
-    elif "paper_1__question_booklet_SL" in path:
+    elif "paper_1_question_booklet_SL" in path:
       DESCRIPTOR = "Paper 1 SL Question Booklet"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
-    elif "paper_1__text_booklet_SL" in path:
+    elif "paper_1_text_booklet_SL" in path:
       DESCRIPTOR = "Paper 1 SL Text Booklet"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
-    elif "paper_2__SL_markscheme" in path:
+    elif "paper_2_SL_markscheme" in path:
       DESCRIPTOR = "Paper 2 SL Markscheme"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
-    elif "paper_2__SL" in path:
+    elif "paper_2_SL" in path:
       DESCRIPTOR = "Paper 2 SL"
       path = path.replace("DESCRIPTOR", DESCRIPTOR)
       new_paths.append(path)
