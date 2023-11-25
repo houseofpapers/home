@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    transition: background-color 0.5s;
+}
+
+/* Light mode styles */
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+    </style>
+    <title>Your Website</title>
+</head>
+<body>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <div id="content">
+        <!-- Your website content goes here -->
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    darkModeToggle.addEventListener('click', function () {
+        // Toggle dark mode class on the body
+        body.classList.toggle('dark-mode');
+
+        // Save the user's preference to local storage
+        const isDarkMode = body.classList.contains('dark-mode');
+        localStorage.setItem('dark-mode', isDarkMode);
+    });
+
+    // Check for user's preference in local storage
+    const isDarkModeStored = localStorage.getItem('dark-mode');
+    if (isDarkModeStored && isDarkModeStored === 'true') {
+        body.classList.add('dark-mode');
+    }
+});
+
+    </script>
+</body>
+</html>
