@@ -46,6 +46,14 @@ for session in sessions:
         DESCRIPTOR = "Paper 1 HL/SL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
+      elif "paper_2_HLSL_markscheme" in path or "paper_2__HLSL_markscheme" in path:
+        DESCRIPTOR = "Paper 2 HL/SL Markscheme"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_2_HLSL" in path or "paper_2__HLSL" in path:
+        DESCRIPTOR = "Paper 2 HL/SL"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
       elif "paper_1_TZ1_HL_markscheme" in path or "paper_1__TZ1_HL_markscheme" in path:
         DESCRIPTOR = "Paper 1 TZ1 HL Markscheme"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
@@ -111,7 +119,7 @@ for session in sessions:
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
       elif "paper_3_HL" in path or "paper_3__HL" in path:
-        DESCRIPTOR = "Paper 3 HL"
+        DESCRIPTOR = "Paper 3 SL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
         
