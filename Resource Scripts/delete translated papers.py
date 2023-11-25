@@ -1,18 +1,21 @@
 import os
 
-def delete_files_with_keywords(folder_path, keywords):
+def remove_specific_pdfs(folder_path):
+    # Iterate through each folder and its contents
     for root, dirs, files in os.walk(folder_path):
         for file in files:
-            file_path = os.path.join(root, file)
-            for keyword in keywords:
-                if keyword.lower() in file.lower():
-                    os.remove(file_path)
-                    print(f"Deleted: {file_path}")
+            if file.endswith('.pdf'):
+                file_path = os.path.join(root, file)
+                # Check if the file contains any of the specified words
+                if any(word in file.lower() for word in ['french', 'german', 'spanish']):
+                    try:
+                        # Attempt to remove the file
+                        os.remove(file_path)
+                        print(f"Removed: {file_path}")
+                    except Exception as e:
+                        print(f"Error removing {file_path}: {e}")
 
-# Replace with the actual path to your main folder
-folder_path = r'C:\Users\veera\Desktop\Chemistry_HL'
+# Specify the parent folder path
+parent_folder_path = r'C:\Users\veera\Desktop\Veer\Coding\Trial Website\pdfs\Chemistry_SL'
 
-# Specify the keywords to check for in the file names
-keywords_to_check = ['spanish', 'french','Spanish','French','German','german']
-
-delete_files_with_keywords(folder_path, keywords_to_check)
+remove_specific_pdfs(parent_folder_path)

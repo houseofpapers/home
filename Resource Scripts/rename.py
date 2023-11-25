@@ -18,5 +18,5 @@ def rename_pdfs(parent_folder):
                     os.rename(old_filepath, new_filepath)
                     print(f"Renamed: {filename} to {new_filename}")
 
-parent_folder_path = r'C:\Users\veera\Desktop\Chemistry_HL'
+parent_folder_path = r'C:\Users\veera\Desktop\Veer\Coding\Trial Website\pdfs\Chemistry_SL'
 rename_pdfs(parent_folder_path)
