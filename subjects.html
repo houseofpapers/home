@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type ="x-icon" href="Media/house.png">
     <title>Subject Selection</title>
     <link rel="stylesheet" href="style.css">
-    <style>
+    <!-- <style>
         .button-container {
             display: flex;
             flex-wrap: wrap;
@@ -44,7 +44,51 @@
         <button class="button-login" onclick="redirecttoPsychSL()">Psychology SL</button>
         <button class="button-login" onclick="redirecttoPsychHL()">Psychology HL</button>
         
+    </div> -->
+
+    <style>
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly; 
+        }
+
+        .signature {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Languages</h1>
+    <div class="button-container">
+        <button class="button-login" onclick="redirectToSpanish()">Spanish B</button> 
+        <button class="button-login" onclick="redirectToSpanishAB()">Spanish AB </button>
+        <button class="button-login" onclick="redirectToFrench()">French B</button>        
+        <button class="button-login" onclick="redirectToFrenchAB()">French AB</button>
+        <button class="button-login" onclick="redirectToHindi()">Hindi B</button>
     </div>
+    <h1>Humanities</h1>
+    <div class="button-container">
+        <button class="button-login" onclick="redirectToEcoSL()">Economics SL</button>
+        <button class="button-login" onclick="redirectToEcoHL()">Economics HL</button>
+        <button class="button-login" onclick="redirecttoGeography()">Geography HL/SL</button>
+        <button class="button-login" onclick="redirecttoPsychSL()">Psychology SL</button>
+        <button class="button-login" onclick="redirecttoPsychHL()">Psychology HL</button>
+    </div>
+    <h1>Maths</h1>
+    <div class="button-container">
+        <button class="button-login" onclick="redirectToMathAAHL()">Math AA HL</button>
+        <button class="button-login" onclick="redirectToMathAASL()">Math AA SL</button>
+        <button class="button-login" onclick="redicretToMathAIHL()">Math AI HL</button>
+    </div>
+    <h1>English</h1>
+    <div class="button-container">
+        <button class="button-login" onclick="redirectToEnglish()">English SL/HL</button>
+    </div>
+
+
 
     <script>
         function redirecttoPsychHL() {
