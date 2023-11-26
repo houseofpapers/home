@@ -1,5 +1,5 @@
 import os
-sessions = ["2001 May", "2001 November", "2002 May", "2002 November", "2003 May", "2003 November", "2004 May", "2004 November", "2005 May", "2005 November", "2006 May", "2006 November", "2007 May", "2007 November", "2008 November", "2009 November", "2010 May", "2010 November", "2011 May", "2011 November", "2012 May", "2012 November", "2013 May", "2013 November", "2014 May", "2014 November", "2015 May", "2015 November", "2016 May", "2016 November", "2017 May", "2017 November", "2018 May", "2018 November", "2019 May", "2019 November", "2020 November", "2021 May", "2021 November", "2022 May", "2022 November"]
+sessions = ["2000 November", "2001 May", "2001 November", "2002 May", "2002 November", "2003 May", "2003 November", "2004 May", "2004 November", "2005 May", "2005 November", "2006 May", "2006 November", "2007 May", "2007 November", "2008 November", "2009 November", "2010 May", "2010 November", "2011 May", "2011 November", "2012 May", "2012 November", "2013 May", "2013 November", "2014 May", "2014 November", "2015 May", "2015 November", "2016 May", "2016 November", "2017 May", "2017 November", "2018 May", "2018 November", "2019 May", "2019 November", "2020 November", "2021 May", "2021 November", "2022 May", "2022 November"]
 #reverse order of sessions in above list
 sessions.reverse()
 
@@ -52,6 +52,14 @@ for session in sessions:
         new_paths.append(path)
       elif "paper_2_HLSL" in path or "paper_2__HLSL" in path:
         DESCRIPTOR = "Paper 2 HL/SL"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_1_TZ1_HLSL_markscheme" in path or "paper_1__TZ1_HLSL_markscheme" in path:
+        DESCRIPTOR = "Paper 1 TZ1 HL/SL Markscheme"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_1_TZ1_HLSL" in path or "paper_1__TZ1_HLSL" in path:
+        DESCRIPTOR = "Paper 1 TZ1 HL/SL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
       elif "paper_1_TZ1_HL_markscheme" in path or "paper_1__TZ1_HL_markscheme" in path:
@@ -119,7 +127,7 @@ for session in sessions:
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
       elif "paper_3_HL" in path or "paper_3__HL" in path:
-        DESCRIPTOR = "Paper 3 SL"
+        DESCRIPTOR = "Paper 3 HL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
         
