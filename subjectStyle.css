@@ -30,6 +30,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 h1 {
@@ -54,5 +55,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+h2 {
+  text-align: center;
+  color: #333333;
+  padding: 10px;
+  margin: 0;
+}
+
 
 

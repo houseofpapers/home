@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type ="x-icon" href="Media/house.png">
     <title>Subject Selection</title>
     <link rel="stylesheet" href="style.css">
-    <style>
+    <!-- <style>
         .button-container {
             display: flex;
             flex-wrap: wrap;
@@ -43,7 +43,81 @@
         <button class="button-login" onclick="redirectToEcoHL()">Economics HL</button>
         <button class="button-login" onclick="redirecttoPsychSL()">Psychology SL</button>
         <button class="button-login" onclick="redirecttoPsychHL()">Psychology HL</button>
+        
+    </div> -->
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            overflow-y: auto;
+            /* max-height: 600px; */
+        }
+
+        .section {
+            text-align: center;
+            margin-bottom: 20px;
+            margin-right: 20px; /* Increase or decrease as needed */
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Updated to arrange buttons vertically */
+            align-items: center; /* Align buttons at the center */
+        }
+
+        .button-login {
+            margin-bottom: 10px;
+        }
+
+        .signature {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section">
+            <h2>Languages</h2>
+            <div class="button-container">
+                <button class="button-login" onclick="redirectToSpanish()">Spanish B</button>
+                <button class="button-login" onclick="redirectToSpanishAB()">Spanish AB </button>
+                <button class="button-login" onclick="redirectToFrench()">French B</button>
+                <button class="button-login" onclick="redirectToFrenchAB()">French AB</button>
+                <button class="button-login" onclick="redirectToHindi()">Hindi B</button>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Humanities</h2>
+            <div class="button-container">
+                <button class="button-login" onclick="redirectToEcoSL()">Economics SL</button>
+                <button class="button-login" onclick="redirectToEcoHL()">Economics HL</button>
+                <button class="button-login" onclick="redirecttoGeography()">Geography HL/SL</button>
+                <button class="button-login" onclick="redirecttoPsychSL()">Psychology SL</button>
+                <button class="button-login" onclick="redirecttoPsychHL()">Psychology HL</button>
+                
+            </div>
+        </div>
+        <div class="section">
+            <h2>Maths</h2>
+            <div class="button-container">
+                <button class="button-login" onclick="redirectToMathAAHL()">Math AA HL</button>
+                <button class="button-login" onclick="redirectToMathAASL()">Math AA SL</button>
+                <button class="button-login" onclick="redicretToMathAIHL()">Math AI HL</button>
+            </div>
+        </div>
+        <div class="section">
+            <h2>English</h2>
+            <div class="button-container">
+                <button class="button-login" onclick="redirectToEnglish()">English SL/HL</button>
+            </div>
+        </div>
     </div>
+
+
 
     <script>
         function redirecttoPsychHL() {
