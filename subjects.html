@@ -114,6 +114,9 @@
                 <button class="button-login" onclick="redirectToPhyHL()">Physics HL</button>
                 <button class="button-login" onclick="redirectToChemHL()">Chemistry HL</button>
                 <button class="button-login" onclick="redirectToChemSL()">Chemistry SL</button>
+                <button class="button-login" onclick="redirectToBioHL()">Biology HL</button>
+                <button class="button-login" onclick="redirectToBioSL()">Biology SL</button>
+
 
             </div>
         </div>
@@ -128,6 +131,12 @@
 
 
     <script>
+        function redirectToBioSL() {
+            window.location.href = 'biologySL.html';
+        }
+        function redirectToBioHL() {
+            window.location.href = 'biologyHL.html';
+        }
         function redirectToPhyHL () {
             window.location.href = 'physicsHL.html';
         }
