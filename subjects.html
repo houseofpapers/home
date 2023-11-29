@@ -37,7 +37,6 @@
         <button class="button-login" onclick="redirectToMathAAHL()">Math AA HL</button>
         <button class="button-login" onclick="redirectToMathAASL()">Math AA SL</button>
         <button class="button-login" onclick="redicretToMathAIHL()">Math AI HL</button>
-        <button class="button-login" onclick="redirecttoGeography()">Geog HL/SL</button>
         <button class="button-login" onclick="redirectToHindi()">Hindi B</button>
         <button class="button-login" onclick="redirectToEcoSL()">Economics SL</button>
         <button class="button-login" onclick="redirectToEcoHL()">Economics HL</button>
@@ -81,7 +80,7 @@
 
     <div class="container">
         <div class="section">
-            <h2>Languages</h2>
+            <h2>Language Acquisition</h2>
             <div class="button-container">
                 <button class="button-login" onclick="redirectToSpanishAB()">Spanish AB </button>
                 <button class="button-login" onclick="redirectToSpanish()">Spanish B</button>
@@ -101,11 +100,19 @@
             </div>
         </div>
         <div class="section">
-            <h2>Maths</h2>
+            <h2>Math</h2>
             <div class="button-container">
                 <button class="button-login" onclick="redirectToMathAAHL()">Math AA HL</button>
                 <button class="button-login" onclick="redirectToMathAASL()">Math AA SL</button>
                 <button class="button-login" onclick="redicretToMathAIHL()">Math AI HL</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Science</h2>
+            <div class="button-container">
+                <button class="button-login" onclick="redirectToChemSL()">Chemistry SL</button>
+                <button class="button-login" onclick="redirectToChemHL()">Chemistry HL</button>
             </div>
         </div>
         <div class="section">
@@ -119,6 +126,12 @@
 
 
     <script>
+        function redirectToChemSL() {
+            window.location.href = 'chemSL.html';
+        }
+        function redirectToChemHL() {
+            window.location.href = 'chemHL.html';
+        }
         function redirecttoPsychHL() {
             window.location.href = 'psychHL.html';
         }
