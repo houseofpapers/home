@@ -1,5 +1,5 @@
 import os
-sessions = ["2000 May", "2000 November", "2001 May", "2001 November", "2002 May", "2002 November", "2003 May", "2003 November", "2004 May", "2004 November", "2005 May", "2005 November", "2006 May", "2006 November", "2007 May", "2007 November", "2008 November", "2009 November", "2010 May", "2010 November", "2011 May", "2011 November", "2012 May", "2012 November", "2013 May", "2013 November", "2014 May", "2014 November", "2015 May", "2015 November", "2016 May", "2016 November", "2017 May", "2017 November", "2018 May", "2018 November", "2019 May", "2019 November", "2020 November", "2021 May", "2021 November", "2022 May", "2022 November"]
+sessions = ["1999 May", "1999 November", "2000 May", "2000 November", "2001 May", "2001 November", "2002 May", "2002 November", "2003 May", "2003 November", "2004 May", "2004 November", "2005 May", "2005 November", "2006 May", "2006 November", "2007 May", "2007 November", "2008 November", "2009 November", "2010 May", "2010 November", "2011 May", "2011 November", "2012 May", "2012 November", "2013 May", "2013 November", "2014 May", "2014 November", "2015 May", "2015 November", "2016 May", "2016 November", "2017 May", "2017 November", "2018 May", "2018 November", "2019 May", "2019 November", "2020 November", "2021 May", "2021 November", "2022 May", "2022 November"]
 #reverse order of sessions in above list
 sessions.reverse()
 
@@ -11,7 +11,7 @@ def list_pdf_files(folder_path):
       return pdf_files
 for session in sessions:
   # Replace 'your/desktop/folder/path' with the path to your desktop folder
-  desktop_folder_path = r'C:\Users\Rishi Mody\Documents\GitHub\Trial-Website\pdfs\Biology_HL' + '\\' + session + ' Examination Session'
+  desktop_folder_path = r'C:\Users\Rishi Mody\Documents\GitHub\Trial-Website\pdfs\Physics_HL' + '\\' + session + ' Examination Session'
   
   pdf_files = list_pdf_files(desktop_folder_path)
   
@@ -21,7 +21,7 @@ for session in sessions:
   for i in range(len(pdf_files)):
       div_str += ''' <p class="paper-title"><a href="PATH" target="_blank">DESCRIPTOR</a></p>'''
       div_str+="\n"
-      div_str = div_str.replace("PATH", "pdfs/Biology_HL" + '/' + session + " Examination Session/" + pdf_files[i])
+      div_str = div_str.replace("PATH", "pdfs/Physics_HL" + '/' + session + " Examination Session/" + pdf_files[i])
       
 
 
@@ -154,7 +154,14 @@ for session in sessions:
         DESCRIPTOR = "Paper 3 TZ1 HL"
         path = path.replace("DESCRIPTOR", DESCRIPTOR)
         new_paths.append(path)
-      
+      elif "paper_3_TZ2_HL_markscheme" in path or "paper_3__TZ2_HL_markscheme" in path:
+        DESCRIPTOR = "Paper 3 TZ2 HL Markscheme"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
+      elif "paper_3_TZ2_HL" in path or "paper_3__TZ2_HL" in path:
+        DESCRIPTOR = "Paper 3 TZ2 HL"
+        path = path.replace("DESCRIPTOR", DESCRIPTOR)
+        new_paths.append(path)
       
         
         
