@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Google tag (gtag.js) ---->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH583V7WY3"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-QH583V7WY3');
+     </script>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type ="x-icon" href="Media/house.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hindi B </title>
+  <link rel="stylesheet" href="subjectStyle.css"> 
+
+  <style>
+    #backButton {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        cursor: pointer;
+        border: 3px solid;
+        padding: 0.25em 0.5em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    #backToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        cursor: pointer;
+        border: 3px solid;
+        padding: 0.25em 0.5em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        position: fixed;  /* Set it as a fixed position */
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+  </style>
+
+</head>
+<body>
+  <button id = "backButton" class="button-login"><</button>
+  <button id="backToTopBtn">^</button>
+
+
+  <script>
+    document.getElementById('backButton').addEventListener('click', function() {
+        window.history.back();
+    });
+
+    document.getElementById('backToTopBtn').addEventListener('click', function () {
+        scrollToTop(1000); // Adjust the duration (in milliseconds) as needed
+    });
+
+    function scrollToTop(duration) {
+        var start = window.pageYOffset;
+        var startTime = "now" in window.performance ? performance.now() : new Date().getTime();
+
+        function scroll() {
+            var currentTime = "now" in window.performance ? performance.now() : new Date().getTime();
+            var timeElapsed = currentTime - startTime;
+            var run = easeInOut(timeElapsed, start, -start, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) {
+                requestAnimationFrame(scroll);
+            }
+        }
+
+        function easeInOut(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return (c / 2) * t * t + b;
+            t--;
+            return (-c / 2) * (t * (t - 2) - 1) + b;
+        }
+
+        requestAnimationFrame(scroll);
+    }
+  </script>
+
+  <h1 class="Subject-Heading">Global Politics Past Papers</h1>
+
+  <div class="paper-year"> <p><strong>2022 November</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2022 November Examination Session/2022 November_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2022 November Examination Session/2022 November_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2022 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2022 May Examination Session/2022 May_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2022 May Examination Session/2022 May_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2021 November</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2021 November Examination Session/2021 November_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2021 November Examination Session/2021 November_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2021 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2021 May Examination Session/2021 May_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p> 
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2021 May Examination Session/2021 May_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2020 November</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2020 November Examination Session/2020 November_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2020 November Examination Session/2020 November_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2020 November Examination Session/2020 November_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2020 November Examination Session/2020 November_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2019 November</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 November Examination Session/2019 November_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 November Examination Session/2019 November_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 November Examination Session/2019 November_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 November Examination Session/2019 November_Global_politics_paper_2__HL_markscheme.pdf" target="_blank">Paper 2 HL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2019 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 May Examination Session/2019 May_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 May Examination Session/2019 May_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 May Examination Session/2019 May_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2019 May Examination Session/2019 May_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2018 November</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 November Examination Session/2018 November_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 November Examination Session/2018 November_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 November Examination Session/2018 November_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 November Examination Session/2018 November_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2018 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 May Examination Session/2018 May_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 May Examination Session/2018 May_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2018 May Examination Session/2018 May_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2017 November</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 November Examination Session/2017 November_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 November Examination Session/2017 November_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 November Examination Session/2017 November_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 November Examination Session/2017 November_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2017 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 May Examination Session/2017 May_Global_politics_paper_1__HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 May Examination Session/2017 May_Global_politics_paper_1__HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 May Examination Session/2017 May_Global_politics_paper_2__HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2017 May Examination Session/2017 May_Global_politics_paper_2__HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2016 May</strong></p></div>
+   <p class = "paper-year"> <strong>2016 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2016 May Examination Session/2016 May_Global_Politics_paper_1_2_3__HLSL.pdf" target="_blank">Paper 1/2/3 HL/SL</a></p>
+    
+   
+   <div class="paper-year"> <p><strong>2015 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2015 May Examination Session/2015 May_Global_politics_paper_1_HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2015 May Examination Session/2015 May_Global_politics_paper_1_HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2015 May Examination Session/2015 May_Global_politics_paper_2_HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2015 May Examination Session/2015 May_Global_politics_paper_2_HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+   
+   <div class="paper-year"> <p><strong>2014 May</strong></p> <p class="paper-title"><a href="pdfs/Global_politics_HL/2014 May Examination Session/2014 May_Global_politics_paper_1_HLSL.pdf" target="_blank">Paper 1 HL/SL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2014 May Examination Session/2014 May_Global_politics_paper_1_HLSL_markscheme.pdf" target="_blank">Paper 1 HL/SL Markscheme</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2014 May Examination Session/2014 May_Global_politics_paper_2_HL.pdf" target="_blank">Paper 2 HL</a></p>
+    <p class="paper-title"><a href="pdfs/Global_politics_HL/2014 May Examination Session/2014 May_Global_politics_paper_2_HLSL_markscheme.pdf" target="_blank">Paper 2 HL/SL Markscheme</a></p></div>
+   
+
+  
+
+</body>
