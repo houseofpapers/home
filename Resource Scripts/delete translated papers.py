@@ -16,6 +16,6 @@ def remove_specific_pdfs(folder_path):
                         print(f"Error removing {file_path}: {e}")
 
 # Specify the parent folder path
-parent_folder_path = r'C:\Users\veera\Desktop\Biology_SL'
+parent_folder_path = r'C:\Users\veera\Desktop\Veer\Coding\Trial Website\pdfs\Economics_SL'
 
 remove_specific_pdfs(parent_folder_path)
