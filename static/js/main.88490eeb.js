@@ -47419,168 +47419,7 @@ n.m = e, n.n = function(e) {
 
         function pn() { /* RISHI */
             return (0, Xt.jsxs)(r.Fragment, {
-                children: [(0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                    }), (0, Xt.jsxs)("p", {
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                    }), (0, Xt.jsxs)("p", {
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h4", {
-                    }), (0, Xt.jsxs)("p", {
-                        children: ["", (0, Xt.jsx)("br", {}), ""]
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h4", {
-                    }), (0, Xt.jsx)("div", {
-                    }), (0, Xt.jsxs)("p", {
-                        children: ["", (0, Xt.jsx)("br", {}), ""]
-                    }), (0, Xt.jsxs)("ul", {
-                        children: [(0, Xt.jsx)("li", {
-                            children: (0, Xt.jsx)(Ut, {
-                           
-                            })
-                        }), (0, Xt.jsx)("li", {
-                        })]
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                    }), (0, Xt.jsx)("div", {
-                    }), (0, Xt.jsxs)("p", {
-                        children: ["", (0, Xt.jsx)("br", {}), ""]
-                    }), (0, Xt.jsxs)("ul", {
-                        className: "text-start",
-                        children: [(0, Xt.jsx)("li", {
-                        }), (0, Xt.jsx)("li", {
-                        }), (0, Xt.jsx)("li", {
-                            children: (0, Xt.jsx)(Ut, {
-                            })
-                        }), (0, Xt.jsx)("li", {
-                            children: (0, Xt.jsx)(Ut, {
-                            })
-                        }), (0, Xt.jsx)("li", {
-                        })]
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h4", {
-                    }), (0, Xt.jsx)("div", {
-                    }), (0, Xt.jsx)("p", {
-                        children: ""
-                    }), (0, Xt.jsxs)("ul", {
-                        className: "text-start",
-                        children: [(0, Xt.jsx)("li", {
-                            children: (0, Xt.jsx)(Ut, {
-                                to: "",
-                                children: ''
-                            })
-                        }), (0, Xt.jsx)("li", {
-                            children: (0, Xt.jsx)(Ut, {
-                                to: "",
-                                children: ""
-                            })
-                        }), (0, Xt.jsx)("li", {
-                            children: ""
-                        }), (0, Xt.jsx)("li", {
-                            children: ""
-                        })]
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h6", {
-                        children: ""
-                    }), (0, Xt.jsx)("p", {
-                        children: ''
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                        children: ""
-                    }), (0, Xt.jsx)("div", {
-                    }), (0, Xt.jsx)("code", {
-                        children: "."
-                    }), (0, Xt.jsxs)("div", {
-                        className: "mt-2",
-                        children: [(0, Xt.jsx)("p", {
-                        }), (0, Xt.jsx)("p", {
-                            children: ""
-                        }), (0, Xt.jsx)("p", {
-                            children: ""
-                        }), (0, Xt.jsx)("p", {
-                            children: ""
-                        }), (0, Xt.jsx)("p", {
-                            children: ""
-                        })]
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "",
-                    children: [(0, Xt.jsx)("h3", {
-                        children: ""
-                    }), (0, Xt.jsx)("div", {
-                        children: ""
-                    }), (0, Xt.jsx)("code", {
-                        children: ''
-                    }), (0, Xt.jsx)("div", {
-                        children: ""
-                    }), (0, Xt.jsxs)("ul", {
-                        className: "text-start",
-                        children: [(0, Xt.jsx)("li", {
-                            children: ''
-                        }), (0, Xt.jsx)("li", {
-                            children: ""
-                        }), (0, Xt.jsx)("li", {
-                            children: ''
-                        })]
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                        children: ""
-                    }), (0, Xt.jsx)("div", {
-                        children: ""
-                    }), (0, Xt.jsx)("code", {
-                        children: ''
-                    }), (0, Xt.jsx)("div", {
-                        children: ""
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                        children: ""
-                    }), (0, Xt.jsx)("div", {
-                        children: ""
-                    }), (0, Xt.jsx)("code", {
-                        children: ''
-                    }), (0, Xt.jsx)("ul", {
-                        className: "text-start",
-                        children: (0, Xt.jsx)("li", {
-                            children: ""
-                        })
-                    })]
-                }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
-                    children: [(0, Xt.jsx)("h3", {
-                        children: ""
-                    }), (0, Xt.jsx)("code", {
-                        children: ''
-                    }), (0, Xt.jsxs)("ul", {
-                        className: "text-start",
-                        children: [(0, Xt.jsx)("li", {
-                            children: ""
-                        }), (0, Xt.jsx)("li", {
-                            children: ""
-                        }), (0, Xt.jsx)("li", {
-                            children: ""
-                        })]
-                    })]
-                })]
+                children: [(0, Xt.jsxs)]
             })
         }
 
@@ -47589,7 +47428,7 @@ n.m = e, n.n = function(e) {
                 className: "d-flex flex-column align-items-center pt-3 text-center",
                 children: [(0, Xt.jsx)("div", {
                     children: (0, Xt.jsx)("h1", {
-                        children: "House of Papers"
+                        children: "House of Papers: Topical"
                     })
                 }), (0, Xt.jsx)("div", {
                     className: "mt-3",
@@ -47597,7 +47436,7 @@ n.m = e, n.n = function(e) {
                         to: "/app",
                         children: (0, Xt.jsx)(sn, {
                             variant: "primary",
-                            children: "Enterrrrr"
+                            children: "Enter"
                         })
                     })
                 }), (0, Xt.jsx)("div", {
