@@ -47428,7 +47428,7 @@ n.m = e, n.n = function(e) {
                 className: "d-flex flex-column align-items-center pt-3 text-center",
                 children: [(0, Xt.jsx)("div", {
                     children: (0, Xt.jsx)("h1", {
-                        children: "House of Papers: Topical"
+                        children: "House of Papers: Revision Village "
                     })
                 }), (0, Xt.jsx)("div", {
                     className: "mt-3",
