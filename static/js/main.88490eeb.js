@@ -47417,189 +47417,167 @@ n.m = e, n.n = function(e) {
             }))) || void 0 === n ? void 0 : n.url) + ""
         }
 
-        function pn() {
+        function pn() { /* RISHI */
             return (0, Xt.jsxs)(r.Fragment, {
                 children: [(0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.7.0"
                     }), (0, Xt.jsxs)("p", {
-                        children: ["DADDY", (0, Xt.jsx)("br", {}), "Hello everyone,", (0, Xt.jsx)("br", {}), "Due to some issues with the previous website, we have decided to move to our new home at ", ln, ". ", (0, Xt.jsx)("br", {}), "We are currently working on some exciting new features, please stay tuned and join our discord!"]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.6.0"
                     }), (0, Xt.jsxs)("p", {
-                        children: ["Mortar has found a new home!", (0, Xt.jsx)("br", {}), "Hello everyone,", (0, Xt.jsx)("br", {}), "Due to some issues with the previous website, we have decided to move to our new home at ", ln, ". ", (0, Xt.jsx)("br", {}), "We are currently working on some exciting new features, please stay tuned and join our discord!"]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h4", {
-                        children: "0.5.2"
                     }), (0, Xt.jsxs)("p", {
-                        children: ["Minor bugfix:", (0, Xt.jsx)("br", {}), "fixed bugs"]
+                        children: ["", (0, Xt.jsx)("br", {}), ""]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h4", {
-                        children: "0.5.1"
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/27T04:00:00+0000"
                     }), (0, Xt.jsxs)("p", {
-                        children: ["Minor Bugfix: ", (0, Xt.jsx)("br", {}), "TL;DR: Performance Improvements & Refixing fixed bugs"]
+                        children: ["", (0, Xt.jsx)("br", {}), ""]
                     }), (0, Xt.jsxs)("ul", {
                         children: [(0, Xt.jsx)("li", {
                             children: (0, Xt.jsx)(Ut, {
-                                to: "https://discord.com/channels/1092544577732350062/1098025520689594440",
-                                children: "ReFixed bug where some equations would not render"
+                           
                             })
                         }), (0, Xt.jsx)("li", {
-                            children: "Fixed slow loading issues (Initial page load should be much faster)"
                         })]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.5.0"
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/24T08:00:00+0000"
                     }), (0, Xt.jsxs)("p", {
-                        children: ["MAJOR update:", (0, Xt.jsx)("br", {}), "TL;DR: Share Question & Mark Question as done"]
+                        children: ["", (0, Xt.jsx)("br", {}), ""]
                     }), (0, Xt.jsxs)("ul", {
                         className: "text-start",
                         children: [(0, Xt.jsx)("li", {
-                            children: "Added Share/Copy link feature to share questions"
                         }), (0, Xt.jsx)("li", {
-                            children: "Added Mark as Done feature to track progress (Kudos to <REDACTED> for helping design the feature)"
                         }), (0, Xt.jsx)("li", {
                             children: (0, Xt.jsx)(Ut, {
-                                to: "https://discord.com/channels/1092544577732350062/1098025520689594440",
-                                children: "Fixed bug where some equations would not render"
                             })
                         }), (0, Xt.jsx)("li", {
                             children: (0, Xt.jsx)(Ut, {
-                                to: "https://discord.com/channels/1092544577732350062/1097001751908974592",
-                                children: "Fixed bug where videos would continue playing after close"
                             })
                         }), (0, Xt.jsx)("li", {
-                            children: "Updated difficulty function"
                         })]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h4", {
-                        children: "0.4.2"
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/15T00:00:00+0000"
                     }), (0, Xt.jsx)("p", {
-                        children: "TL;DR: Major bugfix & UI update, fixed many issues with the LaTeX display code."
+                        children: ""
                     }), (0, Xt.jsxs)("ul", {
                         className: "text-start",
                         children: [(0, Xt.jsx)("li", {
                             children: (0, Xt.jsx)(Ut, {
-                                to: "https://discord.com/channels/1092544577732350062/1096609931504926730",
-                                children: 'Fixed a bug where "all questions" was broken'
+                                to: "",
+                                children: ''
                             })
                         }), (0, Xt.jsx)("li", {
                             children: (0, Xt.jsx)(Ut, {
-                                to: "https://discord.com/channels/1092544577732350062/1096873037128794212",
-                                children: "Added mhchem, removing the \\ce display issue"
+                                to: "",
+                                children: ""
                             })
                         }), (0, Xt.jsx)("li", {
-                            children: "Fixed issues with tables display"
+                            children: ""
                         }), (0, Xt.jsx)("li", {
-                            children: "Fixed issues with no. of marks alignment"
+                            children: ""
                         })]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h6", {
-                        children: "0.4.1"
+                        children: ""
                     }), (0, Xt.jsx)("p", {
-                        children: 'Added Calculator/Non-Calculator Coloring. The "all questions" sections also work now.'
+                        children: ''
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.4.0"
+                        children: ""
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/10T00:00:00+0000"
                     }), (0, Xt.jsx)("code", {
-                        children: "Write me a update message for an update to M252A1 is a public archiver for a certain site that starts with Revision, ends with Village, and is two words. The update adds prediction exams to the site."
+                        children: "."
                     }), (0, Xt.jsxs)("div", {
                         className: "mt-2",
                         children: [(0, Xt.jsx)("p", {
-                            children: "Hello!"
                         }), (0, Xt.jsx)("p", {
-                            children: "We are excited to announce an update to M252A1, the public archiver for Revision Village! The update brings a brand new feature to the site - prediction exams."
+                            children: ""
                         }), (0, Xt.jsx)("p", {
-                            children: "Now, you can take prediction exams to better prepare for your upcoming exams. These exams are specifically designed to help you identify areas where you may need more practice, and to give you a better idea of what to expect on test day."
+                            children: ""
                         }), (0, Xt.jsx)("p", {
-                            children: "We hope that this new feature will be a valuable addition to your Revision Village experience. As always, if you have any questions or feedback, please don't hesitate to reach out to us."
+                            children: ""
                         }), (0, Xt.jsx)("p", {
-                            children: "Thank you for using M252A1, and we wish you the best of luck on your exams!"
+                            children: ""
                         })]
                     })]
                 }), (0, Xt.jsxs)("div", {
-                    className: "mt-2",
+                    className: "",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.3.0"
+                        children: ""
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/08T00:00:00+0000"
+                        children: ""
                     }), (0, Xt.jsx)("code", {
-                        children: 'git commit -m "proxies"'
+                        children: ''
                     }), (0, Xt.jsx)("div", {
-                        children: "Feature update:"
+                        children: ""
                     }), (0, Xt.jsxs)("ul", {
                         className: "text-start",
                         children: [(0, Xt.jsx)("li", {
-                            children: 'Added "Ghost Mode"'
+                            children: ''
                         }), (0, Xt.jsx)("li", {
-                            children: "Added Video Embeds"
+                            children: ""
                         }), (0, Xt.jsx)("li", {
-                            children: 'Added extra "features" for downloaded versions'
+                            children: ''
                         })]
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.2.1"
+                        children: ""
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/06T05:20:00+0000"
+                        children: ""
                     }), (0, Xt.jsx)("code", {
-                        children: 'git commit -m "bugfixes on image loading & UI"'
+                        children: ''
                     }), (0, Xt.jsx)("div", {
-                        children: "Minor Bugfixes in Image Loading & UI"
+                        children: ""
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "0.2.0"
+                        children: ""
                     }), (0, Xt.jsx)("div", {
-                        children: "2023/04/01T23:00:00+0000"
+                        children: ""
                     }), (0, Xt.jsx)("code", {
-                        children: 'git commit -m "videos & difficulty"'
+                        children: ''
                     }), (0, Xt.jsx)("ul", {
                         className: "text-start",
                         children: (0, Xt.jsx)("li", {
-                            children: "Added difficulty levels & Video playback"
+                            children: ""
                         })
                     })]
                 }), (0, Xt.jsxs)("div", {
                     className: "mt-2",
                     children: [(0, Xt.jsx)("h3", {
-                        children: "Maybe you can download this now???"
+                        children: ""
                     }), (0, Xt.jsx)("code", {
-                        children: 'git commit -m "made changes"'
+                        children: ''
                     }), (0, Xt.jsxs)("ul", {
                         className: "text-start",
                         children: [(0, Xt.jsx)("li", {
-                            children: "Improved downloadability"
+                            children: ""
                         }), (0, Xt.jsx)("li", {
-                            children: "Improved mobile responsiveness"
+                            children: ""
                         }), (0, Xt.jsx)("li", {
-                            children: "Extra UI improvements & QoL currently in the pipeline"
+                            children: ""
                         })]
                     })]
                 })]
@@ -47611,7 +47589,7 @@ n.m = e, n.n = function(e) {
                 className: "d-flex flex-column align-items-center pt-3 text-center",
                 children: [(0, Xt.jsx)("div", {
                     children: (0, Xt.jsx)("h1", {
-                        children: "Mortar"
+                        children: "House of Papers"
                     })
                 }), (0, Xt.jsx)("div", {
                     className: "mt-3",
@@ -47619,25 +47597,23 @@ n.m = e, n.n = function(e) {
                         to: "/app",
                         children: (0, Xt.jsx)(sn, {
                             variant: "primary",
-                            children: "Enter"
+                            children: "Enterrrrr"
                         })
                     })
                 }), (0, Xt.jsx)("div", {
                     className: "mt-2",
-                    children: "You are on the downloaded version."
                 }), (0, Xt.jsx)("div", {
                     className: "mt-2",
                     children: (0, Xt.jsx)(Ut, {
-                        to: "https://matrix.to/#/#intelarc:catgirl.cloud",
+                        to: "",
                         children: (0, Xt.jsx)(sn, {
-                            variant: "discord",
-                            children: "Join Element"
+                            variant: "",
                         })
                     })
                 }), (0, Xt.jsx)("div", {
                     className: "mt-2",
                     children: window.location.href.includes("sequoia-super-bacon") || window.location.protocol.includes("file") ? null : (0, Xt.jsxs)(Xt.Fragment, {
-                        children: ["NOTE: You may be accessing a mirror. The main source for updates is at ", (0, Xt.jsx)(Ut, {
+                        children: ["", (0, Xt.jsx)(Ut, {
                             to: ln,
                             children: ln
                         }), " "]
@@ -47645,8 +47621,8 @@ n.m = e, n.n = function(e) {
                 }), (0, Xt.jsxs)("h1", {
                     className: "mt-4",
                     children: [(0, Xt.jsx)("em", {
-                        children: "grind"
-                    }), " practice questions"]
+                        children: ""
+                    }), ""]
                 }), (0, Xt.jsx)("img", {
                     src: ".pestle.png",
                     draggable: "false",
@@ -47656,7 +47632,7 @@ n.m = e, n.n = function(e) {
                     alt: ""
                 }), (0, Xt.jsx)("h2", {
                     className: "mt-2",
-                    children: "Changelog"
+                    children: ""
                 }), (0, Xt.jsx)(pn, {})]
             })
         }
